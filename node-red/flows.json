@@ -1,0 +1,77 @@
+[
+    {
+        "id": "56a27d8eaaf50d4f",
+        "type": "tab",
+        "label": "FLET-RaspberryPi3",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "c7a5719a5656a742",
+        "type": "mqtt in",
+        "z": "56a27d8eaaf50d4f",
+        "name": "",
+        "topic": "flet/control",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "32c37fce4bc02355",
+        "nl": false,
+        "rap": false,
+        "inputs": 0,
+        "x": 300,
+        "y": 240,
+        "wires": [
+            [
+                "f1cfa80af8dda0bc"
+            ]
+        ]
+    },
+    {
+        "id": "f1cfa80af8dda0bc",
+        "type": "debug",
+        "z": "56a27d8eaaf50d4f",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 720,
+        "y": 240,
+        "wires": []
+    },
+    {
+        "id": "32c37fce4bc02355",
+        "type": "mqtt-broker",
+        "name": "",
+        "broker": "test.mosquitto.org",
+        "port": "1883",
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": "4",
+        "keepalive": "60",
+        "cleansession": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthRetain": "false",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closeRetain": "false",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willRetain": "false",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    }
+]
