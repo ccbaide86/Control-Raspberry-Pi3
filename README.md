@@ -67,7 +67,7 @@ flet run --android - **Escanea el codigo QR y no olvides instalar la app de FLET
    - En Windows:
      - Descarga e instala Node.js desde [Node.js Downloads](https://nodejs.org).
 
-### Ejecutar Node-RED y Pegar el Flow
+#### Ejecutar Node-RED y Pegar el Flow
 
 #### Pasos para usar Node-RED
 
