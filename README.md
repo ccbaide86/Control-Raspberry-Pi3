@@ -88,13 +88,13 @@ Tu flujo ahora está activo y listo para recibir mensajes. Puedes probar su func
 
 ### Configuracion de la RASPBERRY-PI3
 
-# Exportar Proyecto a Raspberry Pi
+#### Exportar Proyecto a Raspberry Pi
 
 Este README detalla los pasos para transferir las carpetas necesarias del repositorio a una Raspberry Pi y configurarlas correctamente para el usuario `sa`.
 
 ---
 
-## Archivos a Exportar
+#### Archivos a Exportar
 
 Del repositorio, debes transferir las siguientes carpetas y archivos:
 
@@ -103,7 +103,7 @@ Del repositorio, debes transferir las siguientes carpetas y archivos:
 
 ---
 
-## Requisitos Previos
+#### Requisitos Previos
 
 1. Asegúrate de tener acceso al usuario `sa` en la Raspberry Pi con permisos `sudo`.
 2. Habilita SSH en la Raspberry Pi para transferir los archivos desde tu máquina local:
