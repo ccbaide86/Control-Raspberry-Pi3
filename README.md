@@ -43,12 +43,20 @@ pip install paho-mqtt
 
 
 ### Interfaz FLET para dispositivo movil 
+En Windows:
+- **Prepara tu entorno virtual**
+```bash
 python.exe -m venv .venv
 .venv\Scripts\activate.bat
-
-cd mi-app - **Colocar el directorio de tu app de flet**
-
-flet run --android - **Escanea el codigo QR y no olvides instalar la app de FLET para un mejor uso en movil**
+```
+- **Colocar el directorio de tu app de flet**
+```bash
+cd mi-app 
+```
+- **Escanea el codigo QR y no olvides instalar la app de FLET para un mejor uso en movil**
+```bash
+flet run --android 
+```
 
 ### Configuración Node-RED
 
